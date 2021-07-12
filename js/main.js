@@ -7,4 +7,9 @@ const swiper = new Swiper('.swiper-container', {
     nextEl: '.slider-button--next',
     prevEl: '.slider-button--prev',
   },
+  // Переключение слайдов с помощью клавиатуры
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 });
