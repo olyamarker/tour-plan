@@ -790,7 +790,6 @@ template {
 .map {
   width: 347px;
   height: 213px;
-  background-color: #000;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -886,7 +885,7 @@ template {
   .container {
     max-width: 960px;
   }
-  .slider {
+  .hotel__slider {
     width: 590px;
   }
   .swiper-slide__image {
