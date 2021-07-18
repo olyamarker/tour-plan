@@ -1192,22 +1192,22 @@ template {
         -ms-flex-align: start;
             align-items: flex-start;
   }
-  .newsletter-slider__item {
+  .reviews-slider__item {
     padding: 0 30px 30px;
   }
-  .newsletter-slider__item::after, .newsletter-slider__item::before {
+  .reviews-slider__item::after, .reviews-slider__item::before {
     display: none;
   }
-  .newsletter-slider__button {
+  .reviews-slider__button {
     top: 30px;
   }
-  .newsletter-slider__button--prev {
+  .reviews-slider__button--prev {
     left: 50%;
     margin-left: -65px;
     -webkit-transform: translate(-50%, 0);
             transform: translate(-50%, 0);
   }
-  .newsletter-slider__button--next {
+  .reviews-slider__button--next {
     right: 50%;
     margin-right: -65px;
     -webkit-transform: translate(50%, 0);
