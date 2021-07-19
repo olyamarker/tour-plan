@@ -851,8 +851,13 @@ template {
 
 .subscribe {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 350px;
-  height: 55px;
+  min-height: 55px;
   border-radius: 4px;
   overflow: hidden;
 }
@@ -873,8 +878,10 @@ template {
 }
 
 .subscribe__button {
+  word-break: break-word;
   position: absolute;
   min-width: 65px;
+  max-width: 150px;
   right: 0;
   top: 0;
   height: 100%;

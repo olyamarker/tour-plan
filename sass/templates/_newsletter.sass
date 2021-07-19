@@ -37,8 +37,10 @@
       text-transform: uppercase
 .subscribe
   position: relative
+  display: flex
+  flex-wrap: wrap
   width: 350px
-  height: 55px
+  min-height: 55px
   border-radius: 4px
   overflow: hidden
   &__input
@@ -55,8 +57,10 @@
     line-height: 18px
     color: #BDBDBD
   &__button
+    word-break: break-word
     position: absolute
     min-width: 65px
+    max-width: 150px
     right: 0
     top: 0
     height: 100%
