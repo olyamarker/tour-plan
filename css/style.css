@@ -384,7 +384,7 @@ template {
   display: none;
 }
 
-.navbar-top__search {
+.navbar__search {
   margin-right: auto;
   margin-left: 108px;
 }
@@ -440,7 +440,6 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #333333;
-  margin-right: 18px;
 }
 
 .search__button {
