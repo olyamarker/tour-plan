@@ -1,0 +1,96 @@
+.packages
+  padding: 40px 0 70px 0
+  &__title
+    font-style: normal
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-align: center
+    text-transform: uppercase
+    margin-bottom: 70px
+  &-wrapper
+    display: grid
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr)
+    column-gap: 30px
+    row-gap: 30px
+  &__card
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    background-color: $dark
+    color: $light
+    border-radius: 8px
+    overflow: hidden
+    min-height: 500px
+    &-1
+      flex-direction: row
+      justify-content: space-between
+      grid-column-start: span 2
+  &__descript-1
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
+  &__information
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    min-height: 250px
+    padding: 30px 21px 25px 32px
+    &-1
+      max-width: 50%
+  &__info
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    min-height: 155px
+    &-1
+      min-height: 400px
+  &__price
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-basis: 0
+  &__subtitle
+    margin: 0
+    font-style: normal
+    font-weight: bold
+    font-size: 18px
+    line-height: 23px
+  &__description
+    font-style: normal
+    font-weight: normal
+    font-size: 12px
+    line-height: 15px
+  &__last-price
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 18px
+    text-decoration-line: line-through
+  &__icon
+    margin-right: 14px
+  &__new-price
+    font-style: normal
+    font-weight: bold
+    font-size: 24px
+    line-height: 30px
+  &__button
+    padding: 10px 26px
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 19px
+    border-radius: 4px
+    background-color: $primary
+    border: none
+    color: $light
+    cursor: pointer
+  &__image
+    height: 250px
+    width: 350px
+    object-fit: cover
+    &-1
+      width: 366px
+      height: 500px
+      object-fit: cover
