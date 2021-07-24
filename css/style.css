@@ -953,7 +953,7 @@ template {
 
 .packages__image {
   height: 250px;
-  width: 350px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -1387,6 +1387,24 @@ template {
     width: 340px;
     height: 255px;
   }
+  .packages {
+    padding: 20px 0 50px 0;
+  }
+  .packages__title {
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+  .packages-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+    -ms-grid-columns: (1fr)[2];
+        grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    -webkit-column-gap: 30px;
+            column-gap: 30px;
+    row-gap: 30px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -1509,11 +1527,57 @@ template {
   .activities {
     padding: 40px 0;
   }
+  .packages__card {
+    min-height: 400px;
+  }
+  .packages__card-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-column: span 1;
+        grid-column-start: span 1;
+  }
+  .packages__card-5 {
+    display: none;
+  }
+  .packages__description {
+    font-size: 10px;
+    line-height: 13px;
+  }
+  .packages__new-price {
+    font-size: 22px;
+  }
+  .packages__stars, .packages__descript-1 {
+    display: none;
+  }
+  .packages__information {
+    padding: 20px 25px;
+  }
+  .packages__information-1 {
+    max-width: 100%;
+  }
+  .packages__image {
+    height: 200px;
+  }
+  .packages__image-1 {
+    width: 100%;
+  }
+  .packages__button {
+    padding: 10px 26px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 17px;
+  }
 }
 
 @media (max-width: 576px) {
   .logo {
     width: 99px;
+  }
+  .hotel {
+    padding-bottom: 30px;
   }
   .hotel__slider {
     margin-bottom: 20px;
@@ -1537,6 +1601,32 @@ template {
   }
   .card {
     width: 100%;
+  }
+  .packages-wrapper {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: (1fr)[2];
+    -ms-grid-columns: (1fr)[1];
+        grid-template: repeat(2, 1fr)/repeat(1, 1fr);
+  }
+  .packages__card {
+    min-height: 420px;
+  }
+  .packages__price {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .packages__button {
+    width: 100%;
+  }
+  .packages__title {
+    font-size: 18px;
+    line-height: 23px;
   }
 }
 

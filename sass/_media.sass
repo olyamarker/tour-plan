@@ -64,6 +64,17 @@
   .card
     width: 340px
     height: 255px
+  .packages
+    padding: 20px 0 50px 0
+    &__title
+      font-size: 30px
+      line-height: 38px
+      margin-bottom: 50px
+    &-wrapper
+      display: grid
+      grid-template: repeat(2, 1fr) / repeat(2, 1fr)
+      column-gap: 30px
+      row-gap: 30px
 @media (max-width: 768px)
   .container
     max-width: 576px
@@ -142,10 +153,40 @@
     height: 255px
   .activities
     padding: 40px 0
+  .packages
+    &__card
+      min-height: 400px
+      &-1
+        flex-direction: column
+        grid-column-start: span 1
+      &-5
+        display: none
+    &__description
+      font-size: 10px
+      line-height: 13px
+    &__new-price
+      font-size: 22px
+    &__stars, &__descript-1
+      display: none
+    &__information
+      padding: 20px 25px
+      &-1
+        max-width: 100%
+    &__image
+      height: 200px
+      &-1
+        width: 100%
+    &__button
+      padding: 10px 26px
+      font-style: normal
+      font-weight: 600
+      font-size: 12px
+      line-height: 17px
 @media (max-width: 576px)
   .logo
     width: 99px
   .hotel
+    padding-bottom: 30px
     &__slider
       margin-bottom: 20px
     &-slider
@@ -163,6 +204,20 @@
       margin-bottom: 42px
   .card
     width: 100%
+  .packages
+    &-wrapper
+      display: grid
+      grid-template: repeat(2, 1fr) / repeat(1, 1fr)
+    &__card
+      min-height: 420px
+    &__price
+      flex-direction: column
+      align-items: flex-start
+    &__button
+      width: 100%
+    &__title
+      font-size: 18px
+      line-height: 23px
 @media (max-width: 320px)
   .container
     max-width: 280px
