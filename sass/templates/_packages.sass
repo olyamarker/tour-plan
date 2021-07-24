@@ -24,31 +24,27 @@
     min-height: 500px
     &-1
       flex-direction: row
-      justify-content: space-between
       grid-column-start: span 2
-  // &__descript-1
-    // font-style: normal
-    // font-weight: normal
-    // font-size: 14px
-    // line-height: 160.6%
+  &__descript-1
+    font-style: normal
+    font-weight: normal
+    font-size: 14px
+    line-height: 160.6%
   &__information
     display: flex
     flex-direction: column
     justify-content: space-between
     flex-grow: 1
     padding: 30px 21px 25px 32px
-    // &-1
-      // max-width: 50%
+    &-1
+      max-width: 50%
   &__info
     display: flex
     flex-direction: column
     justify-content: space-between
     flex-grow: 1
-    &-1
-      min-height: 400px
   &__price
     display: flex
-    flex-basis: 0
     justify-content: space-between
     align-items: center
   &__subtitle
@@ -91,6 +87,8 @@
     width: 350px
     object-fit: cover
     &-1
-      width: 366px
+      width: 50%
       height: 500px
-      object-fit: cover
+  &__stars
+    flex-grow: 0
+    flex-basis: auto

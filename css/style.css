@@ -843,11 +843,15 @@ template {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
   -ms-grid-column: span 2;
       grid-column-start: span 2;
+}
+
+.packages__descript-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 160.6%;
 }
 
 .packages__information {
@@ -867,6 +871,10 @@ template {
   padding: 30px 21px 25px 32px;
 }
 
+.packages__information-1 {
+  max-width: 50%;
+}
+
 .packages__info {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -883,16 +891,10 @@ template {
           flex-grow: 1;
 }
 
-.packages__info-1 {
-  min-height: 400px;
-}
-
 .packages__price {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-preferred-size: 0;
-      flex-basis: 0;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -957,10 +959,16 @@ template {
 }
 
 .packages__image-1 {
-  width: 366px;
+  width: 50%;
   height: 500px;
-  -o-object-fit: cover;
-     object-fit: cover;
+}
+
+.packages__stars {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-preferred-size: auto;
+      flex-basis: auto;
 }
 
 .newsletter {
