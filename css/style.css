@@ -806,6 +806,7 @@ template {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
+  margin: 0;
   margin-bottom: 70px;
 }
 
@@ -1675,6 +1676,9 @@ template {
   .newsletter-title__strong {
     font-size: 30px;
     line-height: 38px;
+  }
+  .packages__title {
+    margin-bottom: 30px;
   }
 }
 /*# sourceMappingURL=style.css.map */
