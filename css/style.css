@@ -821,6 +821,7 @@ template {
 }
 
 .packages__card {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,6 +970,24 @@ template {
           flex-grow: 0;
   -ms-flex-preferred-size: auto;
       flex-basis: auto;
+}
+
+.flash-offer {
+  background-color: #EC1F46;
+  padding: 4px 9px;
+  position: absolute;
+  top: 26px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 8px;
+  line-height: 10px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.flash-offer-1 {
+  font-size: 12px;
+  line-height: 15px;
+  padding: 8px 12px;
 }
 
 .newsletter {
@@ -1569,6 +1588,11 @@ template {
     font-weight: 600;
     font-size: 12px;
     line-height: 17px;
+  }
+  .flash-offer-1 {
+    font-size: 8px;
+    line-height: 10px;
+    padding: 4px 9px;
   }
 }
 
