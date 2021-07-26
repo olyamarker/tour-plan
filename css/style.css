@@ -1947,6 +1947,9 @@ template {
         -ms-flex-order: 1;
             order: 1;
   }
+  .footer__form {
+    max-width: 93%;
+  }
 }
 
 @media (max-width: 320px) {
@@ -1973,6 +1976,18 @@ template {
   }
   .packages__title {
     margin-bottom: 30px;
+  }
+  .footer__title--inline {
+    margin-bottom: 10px;
+  }
+  .footer__social-network {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__form {
+    max-width: 280px;
   }
 }
 /*# sourceMappingURL=style.css.map */
