@@ -1441,6 +1441,11 @@ template {
 
 .footer__title {
   margin: 0 0 16px 0;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+  text-transform: uppercase;
 }
 
 .footer__title--mb-3 {
