@@ -571,27 +571,27 @@
         <a href="№" class="modal__close">
           <img src="img/close.svg" alt="Icon: close">
         </a>
-        <h3 class="footer__title footer__title--mb-3">Send us a message</h3>
-            <form action="send.php" method="POST" class="footer__form">
+        <h3 class="modal__title modal__title--mb-3">Send us a message</h3>
+            <form action="send.php" method="POST" class="modal__form">
               <input
                 type="text"
-                class="input footer__input"
+                class="input modal__input"
                 placeholder="Your Full Name*"
                 name="name"
               />
               <input
                 type="text"
-                class="input footer__input"
+                class="input modal__input"
                 placeholder="Phone Number*"
                 name="phone"
               />
               <textarea
-                class="footer__message"
+                class="message modal__message"
                 placeholder="Message"
                 name="message"
               ></textarea>
-              <button class="button footer__button" type="submit">Send</button>
-              <span class="footer__info">* Required Fields</span>
+              <button class="button modal__button" type="submit">Send</button>
+              <span class="modal__info">* Required Fields</span>
             </form>
       </div>
       <!-- /.modal__dialog -->
